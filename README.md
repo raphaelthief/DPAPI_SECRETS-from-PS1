@@ -36,3 +36,8 @@ This PowerShell project is designed to extract Windows credentials and Wi-Fi pro
   - Uses a custom DPAPI interop class for low-level memory-safe decryption.
   - Encodes output in UTF-8 for cross-platform compatibility.
   - Designed to run as SYSTEM to bypass user-level restrictions.
+
+## How to launch
+- First, lauch PowerShell as admin
+- Go to the folder path
+- ``powershell -ExecutionPolicy Bypass -File .\main.ps1``
